@@ -71,7 +71,7 @@ html
 	position: relative;
 	width: 22px;
 	height: 22px;
-	background-image: url(img/bar.png);
+	background-image: url(bar.png);
 	background-position: center;
 	background-size: cover;
 	cursor: pointer;
@@ -81,7 +81,7 @@ html
 
 .toggle.active {
 	transform: rotate(180deg);
-	background-image: url(img/cross.png);
+	background-image: url(cross.png);
 	transition: 0.5s;
 
 }
