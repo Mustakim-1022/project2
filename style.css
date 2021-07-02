@@ -89,9 +89,8 @@ html
 
 .row .col {
 	text-align: right;
-	position: absolute;
-	bottom: 20%;
-	right: 10%;
+	position: relative;
+	margin-top: 40%;
 
 }
 
