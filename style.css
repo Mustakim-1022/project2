@@ -16,8 +16,8 @@ html
 }
 
 .row {
-	width: 80%;
-	margin: 0 auto;
+    width: 1140px;
+    margin: 0 auto;
 }
 
 .center
@@ -37,7 +37,8 @@ html
 }
 
 .nav {
-	width: 100%;
+	width: 1140px;
+	margin: 0 auto;
 	padding: 10px 0px;
 	display: flex;
 	justify-content: space-between;
@@ -100,6 +101,22 @@ html
 		-4px 4px 4px #fff;
 	text-transform: uppercase;
 }
+
+
+@media(max-width:1140px)
+{
+	.nav {
+	width: 80%;
+	}
+	
+	.row {
+    width: 80%;
+    margin: 0 auto;
+	}
+	
+}
+
+
 
 @media(max-width:794px) {
 	.toggle {
@@ -214,6 +231,13 @@ html
 	padding-left: 10px;
 }
 
+
+@media(max-width:1140px)
+{
+	
+}
+
+
 @media(max-width:794px)
 {
 	.row .col_1
@@ -253,13 +277,14 @@ html
 
 .service .col_1
 	{
-		width: 250px;
+		width: 300px;
 		padding: 10px;
 		box-shadow: 2px 2px 2px rgba(0,0,0,0.2); 
-		margin: 25px;
+		margin: 20px;
 		transition: 0.5s;
 		position: relative;
 		background: #fff;
+		border-radius: 10px;
 	}
 
 .service .col_1:hover
