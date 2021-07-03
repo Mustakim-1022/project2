@@ -137,10 +137,10 @@ html
 
 	.nav .nav-bar {
 		width: 100%;
-		height: 0;
+		height: 100%;
 		background: #1d1d1d;
 		position: absolute;
-		top: 0;
+		top: -100%;
 		left: 0;
 		display: flex;
 		justify-content: center;
@@ -149,8 +149,7 @@ html
 	}
 
 	.nav .nav-bar.active {
-		height: 100%;
-		transition: 0.5s;
+		top: 0;
 	}
 
 	.nav .nav-bar ul {
@@ -159,14 +158,8 @@ html
 		top: 50%;
 		left: 50%;
 		transform: translate(-50%, -50%);
-		z-index: 0;
-		visibility: hidden;
 	}
 
-	.nav .nav-bar.active ul {
-		z-index: 1;
-		visibility: visible;
-	}
 
 	.nav .nav-bar li {
 		display: block;
